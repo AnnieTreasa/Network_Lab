@@ -1,3 +1,13 @@
+/*
+*  It implements a simple File Transfer Protocol and 		
+*  offers the functionality of GET (Get file from server)		
+*  PUT (Put local file in server), MGET (Get all files of 		
+*  given extension from server) and MPUT (Put all files of 		
+*  given extension to server).		
+*
+*  Instructions : $ gcc client.c -o client
+				  $ ./client <SERVER_IP> <SERVER_PORT>  
+*/
 #include <stdio.h>
 #include <sys/socket.h> 
 #include <arpa/inet.h>
